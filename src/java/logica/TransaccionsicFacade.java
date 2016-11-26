@@ -42,9 +42,10 @@ public class TransaccionsicFacade extends AbstractFacade<Transaccionsic> impleme
         if(l!=null){
             for (Transaccion transaccion : l) {
                 tx = new Transaccionsic();
-                tx.setCedulaUsuario(transaccion.getCedulaUsuario().getCedula());
+                tx.setNumDocumento(l.getUsuario().getUsuarioPK().getNumDocumento().intValue());
+                tx.setTipoDocumento(l.getUsuario().getUsuarioPK().getTipoDocumento());
                 tx.setFecha(fecha);
-                tx.setNumeroTransaccion(new Integer (transaccion.getNumTransaccion().intValue()));
+                tx.setNumTransaccion(new Integer (transaccion.getNumTransaccion().intValue()));
                 tx.setValorTotal(transaccion.getValor().intValue());
                 em.persist(tx);
             }

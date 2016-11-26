@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Clase Java para usuario complex type.
+ * <p>Java class for usuario complex type.
  * 
- * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="usuario"&gt;
@@ -49,7 +49,7 @@ public class Usuario {
     protected String usuariomispagos;
 
     /**
-     * Obtiene el valor de la propiedad cedula.
+     * Gets the value of the cedula property.
      * 
      * @return
      *     possible object is
@@ -61,7 +61,7 @@ public class Usuario {
     }
 
     /**
-     * Define el valor de la propiedad cedula.
+     * Sets the value of the cedula property.
      * 
      * @param value
      *     allowed object is
@@ -73,7 +73,7 @@ public class Usuario {
     }
 
     /**
-     * Obtiene el valor de la propiedad correo.
+     * Gets the value of the correo property.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class Usuario {
     }
 
     /**
-     * Define el valor de la propiedad correo.
+     * Sets the value of the correo property.
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class Usuario {
     }
 
     /**
-     * Obtiene el valor de la propiedad fechaNacimiento.
+     * Gets the value of the fechaNacimiento property.
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class Usuario {
     }
 
     /**
-     * Define el valor de la propiedad fechaNacimiento.
+     * Sets the value of the fechaNacimiento property.
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class Usuario {
     }
 
     /**
-     * Obtiene el valor de la propiedad nombre.
+     * Gets the value of the nombre property.
      * 
      * @return
      *     possible object is
@@ -133,7 +133,7 @@ public class Usuario {
     }
 
     /**
-     * Define el valor de la propiedad nombre.
+     * Sets the value of the nombre property.
      * 
      * @param value
      *     allowed object is
@@ -145,7 +145,7 @@ public class Usuario {
     }
 
     /**
-     * Obtiene el valor de la propiedad passwordmispagos.
+     * Gets the value of the passwordmispagos property.
      * 
      * @return
      *     possible object is
@@ -157,7 +157,7 @@ public class Usuario {
     }
 
     /**
-     * Define el valor de la propiedad passwordmispagos.
+     * Sets the value of the passwordmispagos property.
      * 
      * @param value
      *     allowed object is
@@ -169,7 +169,7 @@ public class Usuario {
     }
 
     /**
-     * Obtiene el valor de la propiedad usuariomispagos.
+     * Gets the value of the usuariomispagos property.
      * 
      * @return
      *     possible object is
@@ -181,7 +181,7 @@ public class Usuario {
     }
 
     /**
-     * Define el valor de la propiedad usuariomispagos.
+     * Sets the value of the usuariomispagos property.
      * 
      * @param value
      *     allowed object is

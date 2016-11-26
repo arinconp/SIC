@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Clase Java para transaccion complex type.
+ * <p>Java class for transaccion complex type.
  * 
- * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="transaccion"&gt;
@@ -45,7 +45,7 @@ public class Transaccion {
     protected BigInteger valor;
 
     /**
-     * Obtiene el valor de la propiedad cedulaUsuario.
+     * Gets the value of the cedulaUsuario property.
      * 
      * @return
      *     possible object is
@@ -57,7 +57,7 @@ public class Transaccion {
     }
 
     /**
-     * Define el valor de la propiedad cedulaUsuario.
+     * Sets the value of the cedulaUsuario property.
      * 
      * @param value
      *     allowed object is
@@ -69,7 +69,7 @@ public class Transaccion {
     }
 
     /**
-     * Obtiene el valor de la propiedad fecha.
+     * Gets the value of the fecha property.
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class Transaccion {
     }
 
     /**
-     * Define el valor de la propiedad fecha.
+     * Sets the value of the fecha property.
      * 
      * @param value
      *     allowed object is
@@ -93,7 +93,7 @@ public class Transaccion {
     }
 
     /**
-     * Obtiene el valor de la propiedad numTransaccion.
+     * Gets the value of the numTransaccion property.
      * 
      * @return
      *     possible object is
@@ -105,7 +105,7 @@ public class Transaccion {
     }
 
     /**
-     * Define el valor de la propiedad numTransaccion.
+     * Sets the value of the numTransaccion property.
      * 
      * @param value
      *     allowed object is
@@ -117,7 +117,7 @@ public class Transaccion {
     }
 
     /**
-     * Obtiene el valor de la propiedad valor.
+     * Gets the value of the valor property.
      * 
      * @return
      *     possible object is
@@ -129,7 +129,7 @@ public class Transaccion {
     }
 
     /**
-     * Define el valor de la propiedad valor.
+     * Sets the value of the valor property.
      * 
      * @param value
      *     allowed object is
